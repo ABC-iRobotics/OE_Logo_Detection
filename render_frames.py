@@ -21,8 +21,8 @@ for frame_num in range(start_frame, end_frame+1, 1):
         object.select_set(False)
     plane.select_set(True)
     bpy.ops.object.duplicates_make_real()
-    plane.modifiers.get('GeometryNodes').show_viewport=False  # Hide oe logo instanes from viewport
-    plane.modifiers.get('GeometryNodes').show_render=False # Hide oe logo instanes from render
+    plane.modifiers.get('GeometryNodes').show_viewport=False  # Hide oe logo instances from viewport
+    plane.modifiers.get('GeometryNodes').show_render=False # Hide oe logo instances from render
     
     oe_logos = bpy.context.selected_objects
     coll_target = bpy.data.collections['OE_logos']
@@ -44,6 +44,6 @@ for frame_num in range(start_frame, end_frame+1, 1):
     
     bpy.ops.object.delete()
             
-    plane.modifiers.get('GeometryNodes').show_viewport=True  # Hide oe logo instanes from viewport
-    plane.modifiers.get('GeometryNodes').show_render=True # Hide oe logo instanes from render
+    plane.modifiers.get('GeometryNodes').show_viewport=True  # Hide oe logo instances from viewport
+    plane.modifiers.get('GeometryNodes').show_render=True # Hide oe logo instances from render
     scene.render.filepath = orig_render_filepath
