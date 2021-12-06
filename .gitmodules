@@ -4,3 +4,6 @@
 [submodule "yolov5"]
 	path = yolov5
 	url = https://github.com/ultralytics/yolov5
+[submodule "OE_Logo_Inference"]
+	path = OE_Logo_Inference
+	url = https://github.com/ABC-iRobotics/OE_Logo_Inference
