@@ -1,3 +1,6 @@
 [submodule "OE_Logo_BAT"]
 	path = OE_Logo_BAT
 	url = https://github.com/ABC-iRobotics/OE_Logo_BAT
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/ultralytics/yolov5
