@@ -7,3 +7,6 @@
 [submodule "OE_Logo_Inference"]
 	path = OE_Logo_Inference
 	url = https://github.com/ABC-iRobotics/OE_Logo_Inference
+[submodule "Realsense_calibration"]
+	path = Realsense_calibration
+	url = https://github.com/ABC-iRobotics/Realsense_calibration
