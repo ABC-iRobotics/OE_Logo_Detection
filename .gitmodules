@@ -10,3 +10,9 @@
 [submodule "Realsense_calibration"]
 	path = Realsense_calibration
 	url = https://github.com/ABC-iRobotics/Realsense_calibration
+[submodule "OE_Logo_Robot_Control"]
+	path = OE_Logo_Robot_Control
+	url = https://github.com/ABC-iRobotics/OE_Logo_Robot_Control
+[submodule "python-urx"]
+	path = python-urx
+	url = https://github.com/jkur/python-urx
