@@ -94,7 +94,7 @@ def main(args):
             for pose in poses:
                 # Move the camera above the object
                 robot_controller.go_to_pose(pose, robot_controller.above_cam_acc, robot_controller.above_cam_vel)
-                # Take photo to secound prediction
+                # Take photo to second prediction
                 img, _ = cam_contoroller.get_frames()
                 img_bgr = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
 
